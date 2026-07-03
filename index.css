@@ -1,0 +1,74 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+    background-image: url(images/table.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button
+{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+button:hover{
+    background-color: rgba(201, 153, 32, 0.926);
+}
+
+#foot{
+    color: white;
+    /* background-color: goldenrod; */
+    min-height: 15px;
+    padding: 3px;
+    border-radius: 20px;
+    margin: auto 1% 0;
+}
+
+#footer{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+#footer a {
+    color: #1b2a3f;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid #1f2937;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+#footer a:hover {
+    color: white;
+    border-bottom-color: white;
+    text-shadow: 0 0 2px black;
+}
